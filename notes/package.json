@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build .",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "cname": "bash cname.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.0",
