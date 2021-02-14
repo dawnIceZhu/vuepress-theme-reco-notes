@@ -1,7 +1,7 @@
 module.exports = [
   ["link", { // 设置ico图标
     "rel": "icon",
-    "href": "https://hellozxb.coding.net/p/notes/files/all/default/preview/22990131"
+    "href": "/favicon.ico"
   }
   ],
   ["meta", { // 设置视口
