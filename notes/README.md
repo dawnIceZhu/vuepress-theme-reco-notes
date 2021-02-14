@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: dawnIceZhu's Notes
+tagline: People can skip meals for twelve days, But programming can’t stop writing for a day.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
