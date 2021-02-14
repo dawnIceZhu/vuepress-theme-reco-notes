@@ -1,4 +1,4 @@
-<p align="center"><a href="https://notes.hellozxb.com" target="_blank" rel="noopener noreferrer"><img width="100" src="https://coding-net-production-file-ci.codehub.cn/c80ab950-6ea4-11eb-9857-f5df7f7a81a4.png?sign=LAJfOU5Tcnej2uKmgp9S1afi5xVhPTEyNTcyNDI1OTkmaz1BS0lEYXk4M2xGbWFTNlk0TFRkek1WTzFTZFpPeUpTTk9ZcHImZT0xNjEzNTIyMDI0JnQ9MTYxMzMwNjAyNCZyPTE5MzMyNjMwJmY9L2M4MGFiOTUwLTZlYTQtMTFlYi05ODU3LWY1ZGY3ZjdhODFhNC5wbmcmYj1jb2RpbmctbmV0LXByb2R1Y3Rpb24tZmlsZQ==" alt="dawnIceZhu logo"></a></p>
+<p align="center"><a href="https://notes.hellozxb.com" target="_blank" rel="noopener noreferrer"><img width="100" src="https://hellozxb.coding.net/p/notes/files/all/default/preview/22990129" alt="dawnIceZhu logo"></a></p>
 
 <p align="center">
 <a href="https://notes.hellozxb.com/"><img src="https://img.shields.io/badge/dawnIceZhu-Notes-brightgreen"></a>
