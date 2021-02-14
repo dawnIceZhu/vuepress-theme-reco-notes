@@ -1,0 +1,32 @@
+{
+    "theme_color": "#3eaf7c",
+    "background_color": "#3eaf7c",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "https://notes.hellozxb.com/",
+    "app_name": "dawnIceZhu",
+    "short_name": "dawnIceZhu",
+    "description": "dawnIceZhu's Notes",
+    "icons": [
+        {
+            "src": "https://hellozxb.coding.net/p/notes/files/all/22990139/preview/22990330",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://hellozxb.coding.net/p/notes/files/all/22990139/preview/22990331",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "https://hellozxb.coding.net/p/notes/files/all/22990139/preview/22990332",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "https://hellozxb.coding.net/p/notes/files/all/22990139/preview/22990333",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
