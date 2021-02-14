@@ -1,6 +1,6 @@
 # vuepress-theme-reco-notes
 
-<center>![Notes](https://img.shields.io/badge/dawnIceZhu-Notes-brightgreen)</center>
+<div align="center">![Notes](https://img.shields.io/badge/dawnIceZhu-Notes-brightgreen)</div>
 
 [![Build Status](https://travis-ci.com/dawnIceZhu/vuepress-theme-reco-notes.svg?branch=master)](https://travis-ci.com/dawnIceZhu/vuepress-theme-reco-notes)
 [![GitHub issues](https://img.shields.io/github/issues/dawnIceZhu/vuepress-theme-reco-notes)](https://github.com/dawnIceZhu/vuepress-theme-reco-notes/issues)
