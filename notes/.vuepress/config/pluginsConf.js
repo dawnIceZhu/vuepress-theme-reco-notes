@@ -35,7 +35,7 @@ module.exports = {
     }
   },
   "@vuepress/google-analytics": { // 谷歌分析
-    'ga': 'UA-188413535-4' // 跟踪ID
+    'ga': 'UA-189687842-1' // 跟踪ID
   },
   "vuepress-plugin-code-copy": { // 设置一键复制代码
     color: '#3eaf7c', // 设置颜色
