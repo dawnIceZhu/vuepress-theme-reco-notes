@@ -1,0 +1,6 @@
+notes/node_modules/
+notes/public/
+yarn.lock
+yarn.error
+.idea
+notes/.idea
