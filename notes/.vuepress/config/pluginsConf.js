@@ -12,7 +12,7 @@ module.exports = {
     meting: { // 不配置该项的话不会出现全局播放器
       server: 'netease', // 音乐平台
       type: 'playlist', // 播放清单
-      mid: '2427325085' // 资源ID
+      mid: '5278558272' // 资源ID
     },
     aplayer: {
       fixed: true, // 开启吸底模式
