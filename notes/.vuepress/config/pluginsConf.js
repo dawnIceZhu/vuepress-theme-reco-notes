@@ -1,6 +1,16 @@
 const moment = require('moment'); // 导入moment依赖包
 
 module.exports = {
+  "@vssue/vuepress-plugin-vssue": {
+    // 设置 `platform` 而不是 `api`
+    platform: 'github-v4',
+
+    // 其他的 Vssue 配置
+    owner: 'dawnIceZhu',
+    repo: 'vuepress-theme-reco-notes',
+    clientId: '7cc010527a8ed60e2b8d',
+    clientSecret: '9ed195cbaf8516f5ac08429373165b4aab8e541e',
+  },
   "last-updated": {
     transformer: (timestamp) => moment(timestamp).format("YYYY年MM月DD日HH时MM分SS秒")
   },
@@ -23,10 +33,6 @@ module.exports = {
     }
   },
   "@vuepress-reco/vuepress-plugin-loading-page": 'auto', // 载入页面
-  "social-share": { // 分享插件
-    networks: ["qq", "weibo", "email"], // 分享类型
-    email: "Hello16369@163.com", // email
-  },
   "@vuepress/pwa": {
     serviceWorker: true,
     updatePopup: {
