@@ -1,7 +1,7 @@
 const moment = require('moment'); // 导入moment依赖包
 
 module.exports = {
-  "@vssue/vuepress-plugin-vssue": {
+  "@vssue/vuepress-plugin-vssue": { // vssue评论
     // 设置 `platform` 而不是 `api`
     platform: 'github-v4',
 
@@ -10,7 +10,6 @@ module.exports = {
     repo: 'vuepress-theme-reco-notes',
     clientId: '7cc010527a8ed60e2b8d',
     clientSecret: '9ed195cbaf8516f5ac08429373165b4aab8e541e',
-    $lang: 'zh-CN'
   },
   "last-updated": {
     transformer: (timestamp) => moment(timestamp).format("YYYY年MM月DD日HH时MM分SS秒")
