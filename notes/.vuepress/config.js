@@ -34,16 +34,6 @@ module.exports = {
       clientId: 'be80fbd3a5c32a78eb99',
       clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
     }
-    // '@vssue/vuepress-plugin-vssue': {
-    //   // 设置 `platform` 而不是 `api`
-    //   platform: 'github-v4',
-    //
-    //   // 其他的 Vssue 配置
-    //   owner: 'dawnIceZhu', // github用户名
-    //   repo: 'vuepress-theme-reco-notes', // 仓库名称
-    //   clientId: 'be80fbd3a5c32a78eb99',
-    //   clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
-    // },
   },
   "markdown": {
     "lineNumbers": true

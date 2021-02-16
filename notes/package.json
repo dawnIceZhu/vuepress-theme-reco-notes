@@ -17,8 +17,6 @@
   },
   "description": "dawnIceZhu's Notes",
   "dependencies": {
-    "@vssue/api-github-v4": "^1.4.7",
-    "@vssue/vuepress-plugin-vssue": "^1.4.7",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.5.7",
     "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
