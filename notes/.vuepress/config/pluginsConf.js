@@ -2,9 +2,8 @@ const moment = require('moment'); // 导入moment依赖包
 
 module.exports = {
   "@vssue/vuepress-plugin-vssue": { // vssue评论
-    // 设置 `platform` 而不是 `api`
-    platform: 'github-v4',
-
+    platform: 'github-v4', // 设置 `platform` 而不是 `api`
+    autoCreateIssue: true, // 自动创建评论
     // 其他的 Vssue 配置
     owner: 'dawnIceZhu',
     repo: 'vuepress-theme-reco-notes',
