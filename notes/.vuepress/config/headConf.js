@@ -1,7 +1,7 @@
 module.exports = [
   ["link", { // 设置ico图标
     "rel": "icon",
-    "href": "/favicon.ico"
+    "href": "favicon.ico"
   }
   ],
   ["meta", { // 设置视口
