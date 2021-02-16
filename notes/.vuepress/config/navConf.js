@@ -5,16 +5,6 @@ module.exports = [
     "icon": "reco-home"
   },
   {
-    "text": "Docs",
-    "icon": "reco-message",
-    "items": [
-      {
-        "text": "Lead",
-        "link": "/docs/theme-reco/"
-      }
-    ]
-  },
-  {
     "text": "TimeLine",
     "link": "/timeline/",
     "icon": "reco-date"
