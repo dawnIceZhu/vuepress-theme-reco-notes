@@ -39,6 +39,11 @@ module.exports = {
     valineConfig: {
       appId: 'CloOeB0vtRsMkqNiH4HddxFS-gzGzoHsz',// your appId
       appKey: '1UIGtdzrj4a5gMSfRSt07awo', // your appKey
+      avatar: 'monsterid', // 头像配置
+      visitor: true, // 文章访问量统计
+      avatarForce: true, // 拉取评论最新头像
+      recordIP: true, // 记录评论者IP
+      enableQQ: true, // 获取qq昵称头像
     }
   },
   "markdown": {
