@@ -66,7 +66,7 @@ yarn docs:dev
 ```yaml
 ---
 home: true
-# heroImage: /hero.png
+# heroImage: /hero.png?raw=true
 heroText: Hero 标题
 tagline: Hero 副标题
 actionText: 快速上手 →
@@ -90,7 +90,7 @@ features:
 // .vuepress/config.js
 module.exports = {
   themeConfig: {
-    logo: '/assets/img/logo.png', // 配置导航栏LOGO
+    logo: '/assets/img/logo.png?raw=true', // 配置导航栏LOGO
   }
 }
 ```
@@ -189,7 +189,7 @@ module.exports = {
 git config -l
 ```
 
-![image-20210128185506793](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b6991630-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D2c30a197b93485c9c8e88e1a806c9e56b19010dd&response-content-disposition=attachment%3Bfilename%3Dimage-20210128185506793.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210128185506793](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210128185506793.png?raw=true)
 
 #### [修改base](https://www.vuepress.cn/config/#base)
 
@@ -247,19 +247,17 @@ windows系统下, 使用这个命令可能会导致这样一个错误 " 'bash' �
 
 3. 验证 gh-pages
 
-```
 // 代码推送成功之后就可以在分支里面看到一个 main 分支, 还有一个 gh-pages 点击进去就可以看到上传打包好的静态文	件(图1)
-```
-https://hellozxb.coding.net/p/notes/files/all/22990069/preview/22990073
-![image-20210129091550792](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b6982bd0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D474422965a9d30830952b28d03afd6a9909752ba&response-content-disposition=attachment%3Bfilename%3Dimage-20210129091550792.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+
+![image-20210129091550792](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129091550792.png?raw=true)
 
 点击右上角的 Settings 找到 GitHub Pages (图2), 点击Your site is published at 后面的链接, 验证是否可以成功打开, 否则重新推送
 
-![image-20210129091848643](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b69545a0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D168f68206f3c4e09b4923194d53f37370340cfa7&response-content-disposition=attachment%3Bfilename%3Dimage-20210129091848643.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129091848643](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129091848643.png?raw=true)
 
 4. 设置 website, 便于他人访问
 
-![image-20210129092233422](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b697b6a0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Df44421f01b05ecedd23dbc6523486f3f13596e36&response-content-disposition=attachment%3Bfilename%3Dimage-20210129092233422.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129092233422](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129092233422.png?raw=true)
 
 ### 自定义域名
 
@@ -278,15 +276,15 @@ echo 'notes.hellozxb.com' > CNAME
 
 1. 打开购买域名的官网, 之后进入控制台, 找到域名选项
 
-![image-20210129093315004](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7210ae0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Decd32d7fd53247e50fd75bc054c940029e54765e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129093315004.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129093315004](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129093315004.png?raw=true)
 
 2. 点击添加记录, 记录类型为CNAME, 主机记录和自定义的CNAME保持一致, 记录值是仓库指向的ip地址
 
-![image-20210129093734739](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b724b460-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dc43623f3d457ffabb7c94be038f6e27468359094&response-content-disposition=attachment%3Bfilename%3Dimage-20210129093734739.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129093734739](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129093734739.png?raw=true)
 
 确认之后, 打开 Git Bash 重新打包推送, 之后再进入 Settings 找到 GitHub Pages 然后你的域名就变为``  Your site is published at http://notes.hellozxb.com/``, 勾选 ``Enforce HTTPS``
 
-![image-20210129100033331](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b71fd260-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D4f898267c63fed72c7bb65548b26d56f9804281d&response-content-disposition=attachment%3Bfilename%3Dimage-20210129100033331.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129100033331](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129100033331.png?raw=true)
 
 #### 改回 base
 
@@ -330,11 +328,11 @@ module.exports = {
 
 #### 配置 manifest 和 icons [进入 SimiCart 官网](https://www.simicart.com/manifest-generator.html/)
 
-![image-20210129104346966](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b71e99e0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D88b23ca14c5af02db0751b0ddc942f81389b7004&response-content-disposition=attachment%3Bfilename%3Dimage-20210129104346966.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129104346966](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129104346966.png?raw=true)
 
 解压之后把 manifest.json文件放到 .vuepress 文件中, 新建 icons 文件夹, 把对应的图片放到里面, 并且修改 manifest.json 图片的路径, 如果对这些不是很了解, 请参看: [ [MDN docs about the Web App Manifest (opens new window)](https://developer.mozilla.org/en-US/docs/Web/Manifest)]
 
-![image-20210129105153442](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7215900-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Da95cbce5a1a8244fb4eb3b94c00420c12e7241aa&response-content-disposition=attachment%3Bfilename%3Dimage-20210129105153442.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129105153442](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129105153442.png?raw=true)
 
 #### 配置 head links
 
@@ -345,9 +343,9 @@ head: [
     ['meta', {name: 'theme-color', content: '#3eaf7c'}],
     ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
     ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
-    ['link', {rel: 'apple-touch-icons', href: '/icons/icons-512x512.png'}],
-    ['link', {rel: 'mask-icons', href: '/icons/icons-384x384.png', color: '#3eaf7c'}],
-    ['meta', {name: 'msapplication-TileImage', content: '/icons/icons-192x192.png'}],
+    ['link', {rel: 'apple-touch-icons', href: '/icons/icons-512x512.png?raw=true'}],
+    ['link', {rel: 'mask-icons', href: '/icons/icons-384x384.png?raw=true', color: '#3eaf7c'}],
+    ['meta', {name: 'msapplication-TileImage', content: '/icons/icons-192x192.png?raw=true'}],
     ['meta', {name: 'msapplication-TileColor', content: '#000000'}]
 ]
 ```
@@ -356,7 +354,7 @@ head: [
 
 部署到站点查看效果使用 `` 	./deploy.sh``
 
-![image-20210129112635715](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7885830-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D79cfa3076f79b20acbd79ade8df6333f504f18a3&response-content-disposition=attachment%3Bfilename%3Dimage-20210129112635715.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129112635715](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129112635715.png?raw=true)
 
 ### [vssue评论](https://vssue.js.org/)
 
@@ -368,11 +366,11 @@ Vssue 支持通过 Github, Gitlab, Bitbucket, Gitee 或者 Gitea 的 Issue 系�
 
 1. 点击创建一个新的 OAuth App下的前往 [Settings - Developer Settings - OAuth Apps](https://github.com/settings/developers)
 
-![image-20210129113731530](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b786f8a0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3De1e14f0dec7a1ce60a5cfeb767e8552bcf103883&response-content-disposition=attachment%3Bfilename%3Dimage-20210129113731530.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129113731530](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129113731530.png?raw=true)
 
 2. 点击 Register a new application
 
-![](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b788cd60-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dcecb008a9aa7cc3bb85af8c317621dd985f7160e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129114257742.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129114257742.png?raw=true)
 
 #### valine 切换到 vssue
 
@@ -413,7 +411,7 @@ module.exports = {
 };
 ```
 
-![image-20210129120842507](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b78746c0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D5f26cd2ec8650a0ba3bf85234c79ac49d72a1045&response-content-disposition=attachment%3Bfilename%3Dimage-20210129120842507.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129120842507](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129120842507.png?raw=true)
 
 使用评论功能
 
@@ -425,11 +423,11 @@ module.exports = {
 
 如图:
 
-![image-20210129121410517](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7f94270-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D01a289e448d274e81eb6a9f97610df342d3573ff&response-content-disposition=attachment%3Bfilename%3Dimage-20210129121410517.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129121410517](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129121410517.png?raw=true)
 
 登录过后在 github 就可以看到登录情况
 
-![image-20210129121810551](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7fa2cd0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D80e7d6d79663a4889c32c2f441b6370f4f2593da&response-content-disposition=attachment%3Bfilename%3Dimage-20210129121810551.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129121810551](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129121810551.png?raw=true)
 
 #### [自动创建评论](https://vssue.js.org/zh/options/#autocreateissue)
 
@@ -834,7 +832,7 @@ export default {
 
 在 [开发人员设定](https://github.com/settings/applications/) 中的 `` Homepage URL`` 和 `` Authorization callback URL`` 修改为你的ip站点
 
-![image-20210129131826561](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7fc0190-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D3b780464a15b17074a491e8cae93bd558e831b91&response-content-disposition=attachment%3Bfilename%3Dimage-20210129131826561.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129131826561](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129131826561.png?raw=true)
 
 推送到 github
 
@@ -881,19 +879,19 @@ module.exports = {
 
 1. 点击管理, 创建资源
 
-![image-20210129134410897](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7faf020-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D4bce301ff20d8ac2949a7d17881c7456e74e60af&response-content-disposition=attachment%3Bfilename%3Dimage-20210129134410897.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129134410897](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129134410897.png?raw=true)
 
 2. 点击创建媒体资源
 
-![image-20210129134501052](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b7f7e2e0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D2e6263aebd575a2200ec84ca6061f287d6eeb6b4&response-content-disposition=attachment%3Bfilename%3Dimage-20210129134501052.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129134501052](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129134501052.png?raw=true)
 
 3. 点击 ``数据流`` , 选择 `` 网站``
 
-![image-20210129135538068](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b882bdc0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dab63a88a1cc7f1bc3b47ee230e868a578f43c02b&response-content-disposition=attachment%3Bfilename%3Dimage-20210129135538068.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129135538068](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129135538068.png?raw=true)
 
 3. 输入 ``站点ip`` , 输入 ``站点名称`` , 点击创建数据流
 
-![image-20210129135751438](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b8824890-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613384264%3B1613387864%26q-key-time%3D1613384264%3B1613387864%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D68f3a8c71e0b0975555ce21c607fa86bad98389e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129135751438.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A17%3A44%20GMT)
+![image-20210129135751438](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129135751438.png?raw=true)
 
 #### [安装插件](https://www.vuepress.cn/plugin/official/plugin-google-analytics.html#%E5%AE%89%E8%A3%85)
 
@@ -918,11 +916,11 @@ module.exports = {
 
 查看是否启用成功
 
-![image-20210129140640775](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b881fa70-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385174%3B1613388774%26q-key-time%3D1613385174%3B1613388774%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D1821ac7c699b2f4d335ed0e9f32fc116fb8fb2df&response-content-disposition=attachment%3Bfilename%3Dimage-20210129140640775.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A32%3A54%20GMT)
+![image-20210129140640775](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129140640775.png?raw=true)
 
 谷歌分析启用成功
 
-![image-20210129142956755](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b880c1f0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385189%3B1613388789%26q-key-time%3D1613385189%3B1613388789%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D880819cf04282dddd52efde2575442bb3a7c3f51&response-content-disposition=attachment%3Bfilename%3Dimage-20210129142956755.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A33%3A09%20GMT)
+![image-20210129142956755](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129142956755.png?raw=true)
 
 ### 分割 config 文件
 
@@ -949,7 +947,7 @@ module.exports = {
   head: headConf, // head
   plugins: pluginsConf, // plugins
   themeConfig: {
-    logo: '/assets/img/logo.png', // 设置LOGO
+    logo: '/assets/img/logo.png?raw=true', // 设置LOGO
     displayAllHeaders: true, // 默认值：false
     sidebar: 'auto', // 自动设置侧边栏
     lastUpdated: '更新时间', // 最后更新时间
@@ -974,9 +972,9 @@ module.exports = [ // 配置head
   ['meta', {name: 'theme-color', content: '#3eaf7c'}],
   ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
   ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
-  ['link', {rel: 'apple-touch-icons', href: '/icons/icons-512x512.png'}],
-  ['link', {rel: 'mask-icons', href: '/icons/icons-384x384.png', color: '#3eaf7c'}],
-  ['meta', {name: 'msapplication-TileImage', content: '/icons/icons-192x192.png'}],
+  ['link', {rel: 'apple-touch-icons', href: '/icons/icons-512x512.png?raw=true'}],
+  ['link', {rel: 'mask-icons', href: '/icons/icons-384x384.png?raw=true', color: '#3eaf7c'}],
+  ['meta', {name: 'msapplication-TileImage', content: '/icons/icons-192x192.png?raw=true'}],
   ['meta', {name: 'msapplication-TileColor', content: '#000000'}]
 ]
 ```
@@ -1192,7 +1190,7 @@ title: CountUp第三方组件
 
 在根目录下新增 ``.travis.yml`` 文件
 
-![image-20210129155441598](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b880e900-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385207%3B1613388807%26q-key-time%3D1613385207%3B1613388807%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D40e7cbcbc0b94e64c0887317510f9f8bdd424cd6&response-content-disposition=attachment%3Bfilename%3Dimage-20210129155441598.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A33%3A27%20GMT)
+![image-20210129155441598](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129155441598.png?raw=true)
 
 ```yaml
 language: node_js
@@ -1239,47 +1237,47 @@ echo 'notes.hellozxb.com' > docs/.vuepress/dist/CNAME
 2. 点击 ``ACTIVATE ALL REPOSITORIES USING GITHUB APPS``  激活所有存储库
 3. 点击``Dashboard``进入仪表盘
 
-![image-20210129161702286](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b8ee50d0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385221%3B1613388821%26q-key-time%3D1613385221%3B1613388821%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D9fb995a5f1911fce9baf58aa732adf65b1c9776e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129161702286.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A33%3A41%20GMT)
+![image-20210129161702286](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129161702286.png?raw=true)
 
 4. 找到自己的项目, 然后点击 ``Trigger a build``(触发构建)
 
-![image-20210129162024832](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b8ef3b30-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385233%3B1613388833%26q-key-time%3D1613385233%3B1613388833%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D6d9af2f6f45935416b6c596e3d004795350506aa&response-content-disposition=attachment%3Bfilename%3Dimage-20210129162024832.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A33%3A53%20GMT)
+![image-20210129162024832](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129162024832.png?raw=true)
 
 5. 点击
 
-![image-20210129162321495](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b8ee9ef0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385246%3B1613388846%26q-key-time%3D1613385246%3B1613388846%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Db85c179562741c763a57c1bfee7e9e01a14b7be1&response-content-disposition=attachment%3Bfilename%3Dimage-20210129162321495.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A34%3A06%20GMT)
+![image-20210129162321495](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129162321495.png?raw=true)
 
 6. 点击设置
 
-![image-20210129162405185](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b8f04ca0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385258%3B1613388858%26q-key-time%3D1613385258%3B1613388858%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D5274657e7536b8975f8e4cb21289e4dcde513feb&response-content-disposition=attachment%3Bfilename%3Dimage-20210129162405185.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A34%3A18%20GMT)
+![image-20210129162405185](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129162405185.png?raw=true)
 
 7. 找到 ``Environment Variables`` 把 ``.travis.yml`` 文件中的 ===GITHUB_TOKEN=== 复制的到里面
 
-![image-20210129162539162](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b8ee29c0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385271%3B1613388871%26q-key-time%3D1613385271%3B1613388871%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dd6af1f86d339441ec129d0280ca08c3a31b8fd3e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129162539162.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A34%3A31%20GMT)
+![image-20210129162539162](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129162539162.png?raw=true)
 
 #### 获取 GITHUB_TOKEN
 
 1. 打开 ``github`` 生成 token, 点击Settings
 
-![image-20210129162826266](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b94faab0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385284%3B1613388884%26q-key-time%3D1613385284%3B1613388884%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Db49d94e909027b78a307b61456468a094d52a16a&response-content-disposition=attachment%3Bfilename%3Dimage-20210129162826266.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A34%3A44%20GMT)
+![image-20210129162826266](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129162826266.png?raw=true)
 
 2. 找到 ``Developer settings``(开发人员设定)
 
-![image-20210129162922223](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b952df00-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385296%3B1613388896%26q-key-time%3D1613385296%3B1613388896%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Db42fd758afe81906c6e719d8d405a2a39315e0e6&response-content-disposition=attachment%3Bfilename%3Dimage-20210129162922223.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A34%3A56%20GMT)
+![image-20210129162922223](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129162922223.png?raw=true)
 
 3. 点击 ``Personal access tokens`` (个人访问令牌), 再点击 ``Generate new token`` (生成新令牌)
 
-![image-20210129163211931](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b9513150-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385309%3B1613388909%26q-key-time%3D1613385309%3B1613388909%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D1999dfd28f93c05d89d664cf1cdc5c0205a4e741&response-content-disposition=attachment%3Bfilename%3Dimage-20210129163211931.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A35%3A09%20GMT)
+![image-20210129163211931](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129163211931.png?raw=true)
 
 4. 输入 `` Note`` (注意), 勾选 ``Select scopes`` (选择范围)下的 **repo**, 点击最下方的 ``Generate token`` (生成令牌)
 
-![image-20210129163437040](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b94e9940-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385324%3B1613388924%26q-key-time%3D1613385324%3B1613388924%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D60d7ddde38d1d8d48f1ad48c15cb2e07f0011715&response-content-disposition=attachment%3Bfilename%3Dimage-20210129163437040.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A35%3A24%20GMT)
+![image-20210129163437040](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129163437040.png?raw=true)
 
 5. 把令牌粘贴到 ``VALUE`` 中, 点击 ``Add``
 
-![image-20210129163849074](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b95046f0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385336%3B1613388936%26q-key-time%3D1613385336%3B1613388936%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D8921afe4850ce509e488dd7f906f14b629c54174&response-content-disposition=attachment%3Bfilename%3Dimage-20210129163849074.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A35%3A36%20GMT)
+![image-20210129163849074](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129163849074.png?raw=true)
 
-![image-20210129164114910](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b9a9ffb0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385348%3B1613388948%26q-key-time%3D1613385348%3B1613388948%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D41d4c4141ee7b69a5208cffa8f2a7a00d47bd229&response-content-disposition=attachment%3Bfilename%3Dimage-20210129164114910.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A35%3A48%20GMT)
+![image-20210129164114910](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129164114910.png?raw=true)
 
 在 ``.gitignore`` 中把隐藏掉的私密信息注释掉, 否则会导致构建失败, 然后推送到仓库
 
@@ -1291,7 +1289,7 @@ git push
 
 6. 点击 ``Current`` 查看是否部署成功
 
-![image-20210129165038355](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b9daaca0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385361%3B1613388961%26q-key-time%3D1613385361%3B1613388961%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D877c5630dd5b609bd9249b9c3057501022a29ed3&response-content-disposition=attachment%3Bfilename%3Dimage-20210129165038355.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A36%3A01%20GMT)
+![image-20210129165038355](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129165038355.png?raw=true)
 
 ### 逼格徽章
 
@@ -1299,7 +1297,7 @@ git push
 
 1.
 
-![image-20210129170344857](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b9aa9bf0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385374%3B1613388974%26q-key-time%3D1613385374%3B1613388974%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D80cd2c68e7ccdb9a417a2a1b9aa89da7ee9affbe&response-content-disposition=attachment%3Bfilename%3Dimage-20210129170344857.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A36%3A14%20GMT)
+![image-20210129170344857](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129170344857.png?raw=true)
 
 2. 在根目录中的 ``README.md`` 文件中添加
 
@@ -1313,13 +1311,13 @@ git push
 
 #### [shields.io](https://shields.io/)
 
-![image-20210129171048434](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b9da3770-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385388%3B1613388988%26q-key-time%3D1613385388%3B1613388988%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D42495725511c3f63ea116f8726e7e38797f86006&response-content-disposition=attachment%3Bfilename%3Dimage-20210129171048434.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A36%3A28%20GMT)
+![image-20210129171048434](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129171048434.png?raw=true)
 
-![image-20210129171254341](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/b9ac2290-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385402%3B1613389002%26q-key-time%3D1613385402%3B1613389002%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dd6a4fb1160aba07c385e829eef82e6c797e5f48e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129171254341.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A36%3A42%20GMT)
+![image-20210129171254341](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129171254341.png?raw=true)
 
 最后效果
 
-![image-20210129171700329](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/ba2faa70-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385416%3B1613389016%26q-key-time%3D1613385416%3B1613389016%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D15415e7d2a10f07bb6955bcd2b529cf91e96aa05&response-content-disposition=attachment%3Bfilename%3Dimage-20210129171700329.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A36%3A56%20GMT)
+![image-20210129171700329](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129171700329.png?raw=true)
 
 ### [图片缩放](https://www.vuepress.cn/guide/assets.html#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84)
 
@@ -1330,13 +1328,13 @@ git push
 相对路径:
 
 ```md
-![An image](./img/image.png)
+![An image](./img/image.png?raw=true)
 ```
 
 基础路径
 
 ```vue
-<img :src="$withBase('/foo.png')" alt="foo">
+<img :src="$withBase('/foo.png?raw=true')" alt="foo">
 ```
 
 #### [所有图片缩放](https://www.vuepress.cn/plugin/official/plugin-medium-zoom.html)
@@ -1377,7 +1375,7 @@ module.exports = {
 #README.md
 
 #当前带有custom类的img图片可以缩放
-<img class="custom" :src="$withBase('/foo.png')" alt="foo">
+<img class="custom" :src="$withBase('/foo.png?raw=true')" alt="foo">
 ```
 
 ### 自动生成侧边栏
@@ -1432,41 +1430,41 @@ algolia 的缺陷: 手动, 记录上限, 单页内容过多会导致失败
 
 1. 创建账号
 
-![image-20210129184224647](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/ba2fd180-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385436%3B1613389036%26q-key-time%3D1613385436%3B1613389036%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dedbe1ddad9e9ec0e9f8ffe142ecb5f29d654999d&response-content-disposition=attachment%3Bfilename%3Dimage-20210129184224647.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A16%20GMT)
+![image-20210129184224647](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129184224647.png?raw=true)
 
 2. 登录成功之后, 完后入门
 
-![image-20210129184927274](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/ba3046b0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385436%3B1613389036%26q-key-time%3D1613385436%3B1613389036%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3De6ded287890dd51074a96e65f0942d830d2784d3&response-content-disposition=attachment%3Bfilename%3Dimage-20210129184927274.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A16%20GMT)
+![image-20210129184927274](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129184927274.png?raw=true)
 
 3. 上传记录
 
-![image-20210129185440810](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/ba2e71f0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385436%3B1613389036%26q-key-time%3D1613385436%3B1613389036%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dccae31de23d0a520534c8aadb29f3693969ebc1d&response-content-disposition=attachment%3Bfilename%3Dimage-20210129185440810.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A16%20GMT)
+![image-20210129185440810](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129185440810.png?raw=true)
 
 4. 添加可搜索的属性
 
-![image-20210129190037314](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/ba2d8790-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385436%3B1613389036%26q-key-time%3D1613385436%3B1613389036%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D4fbb43568dba101c5428b4bd6955313054c6ddf9&response-content-disposition=attachment%3Bfilename%3Dimage-20210129190037314.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A16%20GMT)
+![image-20210129190037314](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129190037314.png?raw=true)
 
 5. 添加排名和排序
 
-![image-20210129190146333](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/baacf0c0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Dec36706b3252f6a30873b76cee1347ccfc2ad531&response-content-disposition=attachment%3Bfilename%3Dimage-20210129190146333.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129190146333](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129190146333.png?raw=true)
 
 6. 创建一个新的索引
 
-![image-20210129190522929](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/baa883f0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Da80a2d6bbd97c828ad90cead9b3634b3a5b2f69e&response-content-disposition=attachment%3Bfilename%3Dimage-20210129190522929.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129190522929](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129190522929.png?raw=true)
 
 7. 点击 ``API Keys`` 再点击 ``All API Keys``
 
-![image-20210129190708446](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/baafd6f0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D5065f6a579f37139d180e9d5fb35e35be26f204c&response-content-disposition=attachment%3Bfilename%3Dimage-20210129190708446.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129190708446](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129190708446.png?raw=true)
 
 8. 点击 ``New API Key`` 创建新的api密匙, 然后添加描述/选择指标/选择访问控制列表, 最后点击 `` create``
 
-![image-20210129191344074](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bab10f70-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3De1526273ad38a74d16301f4345a51d086cea39dc&response-content-disposition=attachment%3Bfilename%3Dimage-20210129191344074.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129191344074](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129191344074.png?raw=true)
 
 #### 配置 ACL
 
 新建 ``config`` 目录, 创建 ``.env`` 文件
 
-![image-20210129191929502](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bb071eb0-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Df100d5cc0fcd4f8992086cdad9bbb946b46da00a&response-content-disposition=attachment%3Bfilename%3Dimage-20210129191929502.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129191929502](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129191929502.png?raw=true)
 
 ```sh
 APPLICATION_ID=YOUR_APP_ID
@@ -1475,11 +1473,11 @@ API_KEY=YOUR_API_KEY
 
 在刚刚创建的索引找到: API Key, 把ID填写到 ``API_KEY=0c585f86016c125833ce7050exxxxxxx``
 
-![image-20210129192226404](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bb065b60-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D49b864ae0041b29ea6ecf931b9b34d812ce8548b&response-content-disposition=attachment%3Bfilename%3Dimage-20210129192226404.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129192226404](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129192226404.png?raw=true)
 
 找到 Your API Keys, 在 ``APPLICATION_ID=8452ab7c0bdbef7d60b0fxxxxxxxxxx``填入
 
-![image-20210129201630129](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bb6a9b70-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D35d1034362b20477ed940e4b498f792e7dca05d3&response-content-disposition=attachment%3Bfilename%3Dimage-20210129201630129.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129201630129](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129201630129.png?raw=true)
 
 最后是这样的
 
@@ -1498,7 +1496,7 @@ windows 下安装 ``jq``
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-![image-20210129194038136](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bb06a980-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D03bcbb436e9bc64f77e20931c85ed24d5cd20d98&response-content-disposition=attachment%3Bfilename%3Dimage-20210129194038136.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129194038136](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129194038136.png?raw=true)
 
 安装jq
 
@@ -1506,13 +1504,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 chocolatey install jq
 ```
 
-![image-20210129194517457](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bb080910-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3D571b3b0895498f60397815de6603e933dbae65bd&response-content-disposition=attachment%3Bfilename%3Dimage-20210129194517457.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129194517457](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129194517457.png?raw=true)
 
 #### 配置 config.json 根据当前 DOM
 
 创建 ``config.json`` 文件
 
-![image-20210129195455359](https://coding-net-production-file-1257242599.cos.ap-shanghai.myqcloud.com/bb087e40-6ea4-11eb-9857-f5df7f7a81a4.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDay83lFmaS6Y4LTdzMVO1SdZOyJSNOYpr%26q-sign-time%3D1613385435%3B1613389035%26q-key-time%3D1613385435%3B1613389035%26q-header-list%3D%26q-url-param-list%3Dresponse-content-disposition%3Bresponse-expires%26q-signature%3Db9422ad3cfacd452e1699d63854a5372bfa05888&response-content-disposition=attachment%3Bfilename%3Dimage-20210129195455359.png&response-expires=Wed%2C%2017%20Feb%202021%2022%3A37%3A15%20GMT)
+![image-20210129195455359](https://github.com/dawnIceZhu/notes-static-resources/blob/master/img/image-20210129195455359.png?raw=true)
 
 修改为:
 
