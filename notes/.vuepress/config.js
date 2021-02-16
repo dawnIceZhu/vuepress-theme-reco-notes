@@ -34,7 +34,6 @@ module.exports = {
       visitor: true, // 文章访问量统计
       avatarForce: true, // 拉取评论最新头像
       recordIP: true, // 记录评论者IP
-      enableQQ: true, // 获取qq昵称头像
     }
   },
   "markdown": {
