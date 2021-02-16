@@ -7,16 +7,6 @@ module.exports = {
   "@vuepress-reco/vuepress-plugin-pagation": { // 添加分页
     perPage: 10
   },
-  '@vssue/vuepress-plugin-vssue': {
-    // 设置 `platform` 而不是 `api`
-    platform: 'github-v4',
-
-    // 其他的 Vssue 配置
-    owner: 'dawnIceZhu', // github用户名
-    repo: 'vuepress-theme-reco-notes', // 仓库名称
-    clientId: 'be80fbd3a5c32a78eb99',
-    clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
-  },
   "meting": { // 设置meting播放器
     // metingApi: 'https://autumnfish.cn/song/url',
     meting: { // 不配置该项的话不会出现全局播放器
