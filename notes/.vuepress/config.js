@@ -35,12 +35,10 @@ module.exports = {
     //   clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
     // }
 
-    themeConfig: {
-      // valine
-      valineConfig: {
-        appId: 'CloOeB0vtRsMkqNiH4HddxFS-gzGzoHsz',// your appId
-        appKey: '1UIGtdzrj4a5gMSfRSt07awo', // your appKey
-      }
+    // valine
+    valineConfig: {
+      appId: 'CloOeB0vtRsMkqNiH4HddxFS-gzGzoHsz',// your appId
+      appKey: '1UIGtdzrj4a5gMSfRSt07awo', // your appKey
     }
   },
   "markdown": {
