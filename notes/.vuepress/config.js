@@ -27,23 +27,23 @@ module.exports = {
     "record": "鲁ICP备20017435号", // ICP 备案文案
     "recordLink": 'https://icp.chinaz.com/home/info?host=hellozxb.com', // ICP 备案指向链接
     "startYear": "2021", // 项目开始时间
-    // "vssueConfig": {
-    //   platform: 'github',
-    //   owner: 'dawnIceZhu',
-    //   repo: 'vuepress-theme-reco-notes',
-    //   clientId: 'be80fbd3a5c32a78eb99',
-    //   clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
-    // }
-    '@vssue/vuepress-plugin-vssue': {
-      // 设置 `platform` 而不是 `api`
-      platform: 'github-v4',
-
-      // 其他的 Vssue 配置
-      owner: 'dawnIceZhu', // github用户名
-      repo: 'vuepress-theme-reco-notes', // 仓库名称
+    "vssueConfig": {
+      platform: 'github',
+      owner: 'dawnIceZhu',
+      repo: 'vuepress-theme-reco-notes',
       clientId: 'be80fbd3a5c32a78eb99',
       clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
-    },
+    }
+    // '@vssue/vuepress-plugin-vssue': {
+    //   // 设置 `platform` 而不是 `api`
+    //   platform: 'github-v4',
+    //
+    //   // 其他的 Vssue 配置
+    //   owner: 'dawnIceZhu', // github用户名
+    //   repo: 'vuepress-theme-reco-notes', // 仓库名称
+    //   clientId: 'be80fbd3a5c32a78eb99',
+    //   clientSecret: 'f9b0fc5527b4fc60beb0e4fc7c641d7d6897facf',
+    // },
   },
   "markdown": {
     "lineNumbers": true
