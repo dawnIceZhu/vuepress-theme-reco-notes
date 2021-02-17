@@ -16,5 +16,11 @@ module.exports = [
     "desc": "Ky的自留地",
     "email": "77916819@qq.com",
     "link": "https://www.kylexk.com/"
-  }
+  },
+  {
+    "title": "Charles's Blog",
+    "desc": "Never really desperate, only the lost of the soul",
+    "email": "heilang189@163.com",
+    "link": "http://hellozhb.top/"
+  },
 ]
