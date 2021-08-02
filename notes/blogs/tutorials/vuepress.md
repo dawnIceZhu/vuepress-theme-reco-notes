@@ -4,7 +4,7 @@ date: 2021-01-30
 tags:
  - vuepress
 categories: 
- - TUTORIALS
+ - 教程
 sticky:
  - type: 1
 ---

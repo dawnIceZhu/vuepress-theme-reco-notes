@@ -21,12 +21,12 @@ module.exports = {
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated", // 设置最后更新时间
+    "lastUpdated": "最后更新时间", // 设置最后更新时间
     "author": "dawnIceZhu", // 全局作者姓名
     "authorAvatar": "/avatar.png", // 头像
-    "record": "鲁ICP备20017435号", // ICP 备案文案
-    "recordLink": 'https://icp.chinaz.com/home/info?host=hellozxb.com', // ICP 备案指向链接
-    "startYear": "2021", // 项目开始时间
+    "record": "XXX", // ICP 备案文案
+    "recordLink": 'https://icp.chinaz.com/home/info?host=vueice.com', // ICP 备案指向链接
+    "startYear": "2020", // 项目开始时间
     // "valineConfig": { // valine评论
     //   appId: 'CloOeB0vtRsMkqNiH4HddxFS-gzGzoHsz',// your appId
     //   appKey: '1UIGtdzrj4a5gMSfRSt07awo', // your appKey

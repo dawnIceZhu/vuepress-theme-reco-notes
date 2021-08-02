@@ -1,16 +1,16 @@
 module.exports = [
   {
-    "text": "Home",
+    "text": "首页",
     "link": "/",
     "icon": "reco-home"
   },
   {
-    "text": "TimeLine",
+    "text": "时间线",
     "link": "/timeline/",
     "icon": "reco-date"
   },
   {
-    "text": "Contact",
+    "text": "联系",
     "icon": "reco-message",
     "items": [
       {

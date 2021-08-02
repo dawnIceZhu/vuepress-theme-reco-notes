@@ -2,4 +2,4 @@
 
 set -e
 
-echo 'notes.hellozxb.com' > public/CNAME
+echo 'notes.vueice.com' > public/CNAME

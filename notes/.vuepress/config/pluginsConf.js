@@ -34,8 +34,10 @@ module.exports = {
   "@vuepress/pwa": {
     serviceWorker: true,
     updatePopup: {
-      message: "Found new content available",
-      buttonText: "Update"
+      // message: "Found new content available",
+      // buttonText: "Update"
+      message: "发现新的可用内容",
+      buttonText: "更新"
     }
   },
   "@vuepress/google-analytics": { // 谷歌分析
