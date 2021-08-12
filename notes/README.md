@@ -12,8 +12,10 @@ tagline: People can skip meals for twelve days, But programming can’t stop wri
 #   borderRadius: '1rem',
 # }
 bgImageStyle: {
-  height: '450px'
+#  height: '450px'
+  z-index: -1
 }
+bgImage: '/1.jpg'
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
